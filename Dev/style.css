@@ -1,0 +1,10 @@
+/* CSS Reset */
+* {
+    margin : 0 ;
+    padding : 0 ;
+    font-family: "Plus Jakarta Sans", sans-serif; 
+    box-sizing: border-box; /* évite les débordements non voulus */
+}
+
+
+
