@@ -2,6 +2,16 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IndexController; // Pour integrer le fichier
+
+
+/*
+* rajouter Route::middleware('auth')->group(function () {} 
+* pour que seulement les utilisateur connecter puissent avoir accès  
+*/
+
+/*pour l'index*/
+Route::get('/index', [IndexController::class, 'index'])->name('index');
 
 Route::get('/', function () {
     return view('welcome');
