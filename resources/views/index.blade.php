@@ -6,7 +6,7 @@
     <title>MoodAligner</title>
 
     <!-- Liaison des fichier depuis Vite -->
-    @vite(['resources/css/style.css', 'resources/js/script.js'])
+    @vite(['resources/css/style_index.css', 'resources/js/script_index.js'])
 </head>
 <body>
 
