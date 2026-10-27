@@ -1,0 +1,13 @@
+/* CSS Reset */
+
+* {
+    margin : 0 ; 
+    padding : 0 ; 
+    box-sizing : border-box ; /* pour éviter les débordement sans faire exprès */
+}
+
+body {
+    background : #BC96E6 ; 
+}
+
+
