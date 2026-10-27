@@ -2,7 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\IndexController; // Pour integrer le fichier
+use App\Http\Controllers\IndexController; // Pour integrer le fichier Index
+use App\Http\Controllers\AboutController; // Pour integrer le fichier About
 
 
 /*
@@ -12,6 +13,9 @@ use App\Http\Controllers\IndexController; // Pour integrer le fichier
 
 /*pour l'index*/
 Route::get('/index', [IndexController::class, 'index'])->name('index');
+
+/*pour About*/
+Route::get('/about_us', [AboutController::class, 'about_us'])->name('about_us');
 
 Route::get('/', function () {
     return view('welcome');
