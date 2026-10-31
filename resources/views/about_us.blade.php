@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MoodAligner</title>
-
+    
+    <sript src="https://unpkg.com/lucide@latest"></script> <!-- Pour les icons  -->
     <!-- Liaison des fichier depuis Vite -->
     @vite(['resources/css/style_about.css', 'resources/js/script_about.js'])
+    
 </head>
 <body>
 
@@ -30,6 +32,7 @@
                 <li>Hocine</li>
                 <li>Ahmed</li>
             </ol>
+            <a href="./index"> <i data-lucide="link"></i> </a>  
         </div>
 
       </div>
