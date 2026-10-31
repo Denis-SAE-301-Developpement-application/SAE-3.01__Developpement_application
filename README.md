@@ -22,6 +22,8 @@ Application web de suivi et d'alignement des humeurs/émotions par recommandatio
 
 ### Fichier important du projet 
 
+Pour les icons : https://lucide.dev/icons/
+
 moodaligner/vite.config.js    /*ajoute des fichier css et js a l'intérieur*/
 
     /* Partie Index de l'utilisateur */
