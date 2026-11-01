@@ -6,6 +6,9 @@
     <title>MoodAligner</title>
     
     <sript src="https://unpkg.com/lucide@latest"></script> <!-- Pour les icons  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Pour la typographie  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Pour la typographie  -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <!-- Liaison des fichier depuis Vite -->
     @vite(['resources/css/style_index.css', 'resources/js/script_index.js'])
     
