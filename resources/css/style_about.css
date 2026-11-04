@@ -3,6 +3,7 @@
 * {
     margin : 0 ; 
     padding : 0 ; 
+    font-family: "Inter", sans-serif;
     box-sizing : border-box ; /* pour éviter les débordement sans faire exprès */
 }
 
@@ -10,4 +11,24 @@ body {
     background : #FCFDAF ; 
 }
 
+html {
+    scroll-behavior: smooth; /* Pour améliorer l'animation entre le passage de sections (plus lisse)  */
+    cursor: none;
+}
+
+/* Typographie */
+
+.outfit-font { 
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100; /* Entre 100 et 900 pour le gras */
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100; /* Entre 100 et 900 pour le gras */
+  font-style: normal;
+}
 
